@@ -1,0 +1,318 @@
+*{
+    margin: opx;
+    padding: 0px;
+
+
+}
+
+
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+   padding: 10px;
+   color: rgb(0, 0, 0);
+   position: fixed;
+   z-index: 100;
+   
+}
+
+
+.ki{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.gi{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    color: black;
+    z-index: 100px;
+}
+
+.hi{
+    width: 800px;
+   position: relative;
+   left: 10%;
+   z-index: 1000px;
+}
+
+.but{
+    position: relative;
+    right: 0%;
+  
+}.btn{
+    margin-left: 400px;
+    width: 80px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.save{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border: solid 2px black;
+    width: 500px;
+    padding: 40px;  
+    
+}
+
+#bur{
+    position: relative;
+    left: 25%;
+    bottom: -15px;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+}
+
+.row6{
+    
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+  
+}
+#col6{
+    width: 40%;
+    height: 680px;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 10%; */
+    border: 5px solid black;
+    }
+
+    #sar{
+
+        margin: 60px;
+
+    }
+
+    .row7{
+        width: 100%;
+        height: 600px;
+        background-color: orange;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #we{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+   #a1{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/20440512/pexels-photo-20440512/free-photo-of-hand-giving-toy-to-cute-dog-on-street.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   }
+   #a2{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://pantthetown.com/wp-content/uploads/Kota-High-Contrast-Blog-3-1-of-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   }
+   #a3{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://img.freepik.com/premium-photo/close-up-cat-black-white_1048944-14102011.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   }
+
+   #don{
+    color: rgb(255, 255, 255);
+   }
+   .ate{
+    color: rgb(255, 255, 255);
+    margin-top: 130px;
+    text-align: center;
+    text-align: justify;
+   }
+
+   #on{
+    color: rgb(0, 0, 0);
+   }
+
+   #card{
+       width: 100%;
+       height: 680px;
+       background-color: grey;
+       /* list-style: none; */
+   }
+   #card li
+   {
+    list-style: none;
+   }
+
+   #lg{
+    position: relative;
+    margin-top: 20px;
+    left: 70px;
+   }
+
+   #ll{
+    margin-top: 220px;
+    margin-left: 17%;
+    
+   }
+   #res{
+    margin-top: 230px;
+   }
+
+   #oo{
+    /* border: solid 5px black;
+    align-items: center; */
+   }
+
+#ser{
+    
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.facility
+{
+    margin-left: -30px;
+}
+/* From Uiverse.io by boryanakrasteva */ 
+.input-container {
+    width: 220px;
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+  }
+  
+  .input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    transition: .2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+  }
+  
+  .input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+  }
+  
+  @keyframes anim {
+    0%,
+    100% {
+      transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+  
+    50% {
+      transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+  }
+  /* From Uiverse.io by vinodjangid07 */ 
+.social {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: rgb(238, 238, 238); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055); */
+    position: relative;
+    top: 20%;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
